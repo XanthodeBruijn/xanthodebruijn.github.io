@@ -62,3 +62,9 @@ div.benodigdheden{
 	font-family: Arial;
 	font-weight: bold;
 }
+
+img{
+	border: 5px solid black;
+	display: block;
+	margin-left: 200px;
+}
