@@ -1,70 +1,74 @@
-h1{
+*{
+	margin:0;
+}
+body{
+	background-image: url(img/bg.png);
 	font-family: Arial;
 }
 
-p{
-	font-family: Arial;
+div.bovenkant{
+	background-image: url(img/header.jpg);
+	height: 268px;
 }
 
-ul{
-	font-family: Arial;
+div.midden{
+	width: 800px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-h3{
-	font-family: Arial;
+div.tekst{
+	padding: 30px;
 }
 
-h2{
-	font-family: Arial;
-	font-size: 22px;
-	font-style: italic;
+ul.top-menu{
+	list-style-type: none;
+	color: white;
 }
 
-div.container{
-	background-color: gray;
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 50px;
-	padding: 25px;
+li{
+	display: inline;
+	padding: 10px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+li a:hover{
+	color: black;
 }
 
-li a{
-    float: left;
+li a:visited{
+	color: white;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+li a:link{
+	color: white;
 }
 
-li a:hover {
-    background-color: #111;
+li a:hover{
+	color: lightgray;
 }
 
-span{
-	display: inline-block;
-	width: 150px;
-	font-family: Arial;
+img.top-left{
+	float: left;
+	padding-right: 20px;
 }
 
-div.benodigdheden{
-	font-family: Arial;
-	font-weight: bold;
+div.boventekst{
+	padding-left: 20px;
+	padding-top: 20px;
 }
 
-img{
-	border: 5px solid black;
-	display: block;
-	margin-left: 200px;
+img.img1{
+	float: right;
+	padding: 20px;
+}
+
+img.img2{
+	float: left;
+	padding: 20px;
+}
+
+img.img3{
+	float: right;
+	padding: 20px;
 }
