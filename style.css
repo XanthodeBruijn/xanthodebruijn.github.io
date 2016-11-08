@@ -41,6 +41,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 li a:hover {
@@ -63,67 +64,12 @@ h2{
 	padding-top: 25px;
 }
 
-article.artikel1{
-	word-wrap: break-word;
-	margin: 25px;
-	display: inline-block;
-	width: 95%;
+img{
+	width: 450px;
+	margin: auto;
+	display: block;
 }
 
-img.artikel1{
-	float: right;
-	margin: 25px;
-	height: 300px;
-}
-
-article.artikel2{
-	word-wrap: break-word;
-	margin: 25px;
-	display: inline-block;
-	width: 95%;
-}
-
-img.artikel2{
-	float: left;
-	margin: 25px;
-	height: 300px;
-}
-
-article.artikel3{
-	word-wrap: break-word;
-	margin: 25px;
-	display: inline-block;
-	width: 95%;
-}
-
-img.artikel3{
-	float: right;
-	margin: 25px;
-	height: 300px;
-}
-
-article.artikel4{
-	word-wrap: break-word;
-	margin: 25px;
-	display: inline-block;
-	width: 95%;
-}
-
-img.artikel4{
-	float: left;
-	margin: 25px;
-	height: 300px;
-}
-
-article.artikel5{
-	word-wrap: break-word;
-	margin: 25px;
-	display: inline-block;
-	width: 95%;
-}
-
-img.artikel5{
-	float: right;
-	margin: 25px;
-	height: 300px;
+img.voorbeeld{
+	width: 750px;
 }
